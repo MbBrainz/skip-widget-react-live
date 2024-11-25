@@ -1,3 +1,11 @@
+# Skip Widget x React Live Error demo
+
+This is a demo of the Skip Widget embedded in a Next.js app using the `react-live` library to render the widget in a code sandbox.
+This will error on build because the `react-live` `scope` object cannot handle the `Widget` component. To see the error, run `pnpm install && pnpm build` and see the error in the terminal.
+
+
+# Boilerplate Create Next App Readme:
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
