@@ -1,3 +1,5 @@
+# SOLVED: This issue has been fixed by the skip team in their  [v3.0.18 release of the @skip-go/widget](https://github.com/skip-mev/skip-go/releases/tag/%40skip-go%2Fwidget%403.0.18)
+
 # Skip Widget x React Live Error demo
 
 This is a demo of the Skip Widget embedded in a Next.js app using the `react-live` library to render the widget in a code sandbox.
