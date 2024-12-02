@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
 import { Widget } from "@skip-go/widget";
+
 const code = `
   <div className="justify-center items-center h-[640px] w-[450px]">
     <Widget />
@@ -22,7 +23,7 @@ export default function Home() {
         />
 
 
-        <LiveProvider code={code} scope={{ Widget }} noInline>
+        <LiveProvider code={code} scope={{ Widget }}>
           <LivePreview />
           <LiveError />
           <LiveEditor />
